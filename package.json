@@ -1,0 +1,16 @@
+{
+    "name": "docgenerator",
+    "version": "1.0.0",
+    "main": "generateApiReference.ts",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "generate": "ts-node --esm ./generateApiReference.ts -generateComponents -generateRoutes"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.2.3",
+        "@types/node": "^18.15.11",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}
